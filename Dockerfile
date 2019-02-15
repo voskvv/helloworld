@@ -1,8 +1,8 @@
-FROM node:slim
+??? node:slim
 
 COPY . /
-RUN npm install
+??? npm install
 
-EXPOSE 80
+??? 80
 
 CMD npm run serve
